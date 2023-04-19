@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(140deg, #6441a5f5, #612f74f5);
+    
+}
+
+.calculator{
+    background-color: rgb(94, 94, 111);
+    height: 480px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 1.4);
+}
+
+.screen{
+   width: 100%;
+   background-color: rgb(176, 205, 176);
+   font-size: 38px;
+   text-align: end;
+   padding: 4px;
+}
+
+.buttons{
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    background: linear-gradient(140deg, #6441a5f5, #612f74f5);    border: none;
+    color: #f5f5f5;
+    font-size: 42px;
+    width: 50px;
+    height: 50px;
+    border-radius: 28px;
+    margin: 10px;
+    font-family: 'Barlow', sans-serif;
+    justify-content: space-evenly;
+
+}
+
+button:hover{
+    background: linear-gradient(140deg, #444195f5, #412f54f5);
+    cursor: pointer;
+}
+
+button:active{
+    background: linear-gradient(140deg, #8441c5f5, #812f94f5);
+}
+
+#equals{
+    background: linear-gradient(140deg, #fb6161f5, #c63131e7);
+}
+
+#equals:hover{
+    background: linear-gradient(140deg, #cb6161f5, #963131e7);
+}
+
+#equals:active{
+    background: linear-gradient(140deg, #fd6161f7, #e63151e7);
+}
+
+#clear {
+    background: linear-gradient(140deg, #f3cf2cF5, #d3b71be7);
+}
+
+#clear:hover{
+    background: linear-gradient(140deg, #eecf1fF2, #d0b70fe4);
+}
+
+#clear:active{
+    background: linear-gradient(140deg, #f4ef2cF5, #e4b71bf7);
+}
